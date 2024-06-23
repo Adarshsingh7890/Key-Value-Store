@@ -1,12 +1,6 @@
 
 Name: Adarsh Singh
 
-Submission
-Please replace paxos/paxos.go with your implementation in the first project. Similarly, You only need to push your code to the github repo. No further action needed on Canvas. Please make sure you push your latest changes before the cutoff time. After the deadline, you are not able to push any commits.
-
-Project Overview
-In this assignment, you'll implement a fault-tolerant key-value store on top of Paxos. You need to fill in the necessary parts in src/kvpaxos/client.go, src/kvpaxos/server.go, and src/kvpaxos/common.go. Similarly, the communication between servers and clients is based on rpc, which is also provided in the template (call()).
-
 The key-value store includes three kinds of operations: Put, Get, and Append. Append performs the same as Put when the key is not in the store. Otherwise, it appends new value to the existing value. For example,
 
 Put('k', 'a')
